@@ -1,0 +1,30 @@
+
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+
+//
+// Grid mixins
+//
+
+@import "bootstrap/mixins/breakpoints";
+
+// @import "slick/slick";
+// @import "slick/slick-theme";
+
+
+// including variables and mixins
+@import "theme/variables";
+@import "theme/mixins";
+@import "theme/flexbox";
+@import "theme/reset";
+@import "theme/predefined";
+
+
+// Custom Scss 
+@import "theme/header";
+@import "theme/home";
+@import "theme/benefits";
+@import "theme/aboutComp";
+@import "theme/main-section";
+@import "theme/slider-elem";
+

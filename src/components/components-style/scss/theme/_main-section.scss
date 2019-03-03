@@ -1,0 +1,32 @@
+.main_section {
+	padding-top: 60px;
+	padding-bottom: 80px;
+	position: relative;
+	h2{
+		text-align: center;
+		&:after{
+			display: block;
+			content: '';
+			border-bottom: 2px solid #616161;
+			width: 50px;
+			margin: auto;
+			margin-top: 6px;
+			margin-bottom: 30px;
+		}
+	}
+}
+.main_section.dark{
+	background-color: #616161;
+	h2{
+		text-align: center;
+		&:after{
+			display: block;
+			content: '';
+			border-bottom: 2px solid #fff;
+			width: 50px;
+			margin: auto;
+			margin-top: 6px;
+			margin-bottom: 30px;
+		}
+	}
+}

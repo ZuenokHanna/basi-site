@@ -1,0 +1,28 @@
+.benefits {
+	position: absolute;
+	bottom: 100px;
+	width: 100%;
+
+	.benefits__element {
+
+		.benefits__title{
+			text-transform: none;
+		}
+		
+		.benefits__number {
+			font-size: 30px;
+			text-transform: none;
+
+			&:after{
+				display: block;
+				content: '';
+				border-bottom: 1px solid $white;
+				width: 100px;
+				margin: auto;
+				margin-top: 6px;
+			}
+		}
+
+	}
+
+}

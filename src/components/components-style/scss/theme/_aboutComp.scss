@@ -1,0 +1,33 @@
+.about_component {
+	width: 100%;
+	position: relative;
+	&:after{
+		display: block;
+		position: absolute;
+		content: '';
+		width: 110px;
+		height: 110px;
+		border-radius: 50%;
+		background-color: #dfdfdf;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		z-index: 2;
+	}
+	.about_component__text{
+		width: 50%;
+		height: 250px;
+	}
+	.about_component__after{
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		position: absolute;
+		top: 0;
+    z-index: -1;
+		div{
+			width: 50%;
+			height: 250px;
+		}
+	}
+}
